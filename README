@@ -1,0 +1,14 @@
+### Instalação dos pacotes ###
+pip install -r requirements.txt
+
+### Build da Aplicação ###
+paver build
+
+### Build da Aplicação com relatorios ###
+paver build report # irá gerar uma pasta report na raiz do projeto.
+
+### Rodando aplicação em dev ###
+paver dev
+
+### Rodando aplicação em produção ###
+paver prod
